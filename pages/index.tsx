@@ -25,7 +25,7 @@ export default function Home() {
 
       </Navbar>
 
-      <Content title="Home Page" background="/images/backgroundNear.svg"></Content>
+      <Content title="Home Page"></Content>
 
     
 
