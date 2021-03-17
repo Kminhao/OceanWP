@@ -1,14 +1,13 @@
 import styles from '../styles/components/Content.module.css';
 
 interface contentProps {
-    title: string,
-    background?: string;
+    title: string
 }
 
 
-export const Content: React.FC<contentProps> = ({ title, background }) => {
+export const Content: React.FC<contentProps> = ({ title }) => {
     return (
-        <div className={styles.contentContainer} style={{ "background-image ": `url(${background}) ; no-repeat` }}>
+        <div className={styles.contentContainer}>
             <h4>{title}</h4>
             <div className={styles.content}>
                 <div className={styles.homePageContent}>
