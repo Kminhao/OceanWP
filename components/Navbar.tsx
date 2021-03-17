@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link'
-import styles from '../styles/pages/Navbar.module.css';
+import styles from '../styles/components/Navbar.module.css';
 
 
 interface NavbarProps {

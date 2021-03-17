@@ -25,15 +25,16 @@ export default function Home() {
 
       </Navbar>
 
-      <Content title="Home Page"></Content>
-      
+      <Content title="Home Page" background="/images/backgroundNear.svg"></Content>
+
+    
 
       <Footer
         facebook="https://facebook.com"
         instagram="https://instagram.com"
         linkedin="https://linkedin.com"
         twitter="https://twitter.com"
-        isHome = {true}
+        isHome={true}
       >
 
 

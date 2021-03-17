@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../styles/pages/Footer.module.css';
+import styles from '../styles/components/Footer.module.css';
 
 interface FooterProps {
     instagram?: string;
@@ -10,10 +10,6 @@ interface FooterProps {
 }
 
 export const Footer: React.FC<FooterProps> = ({ instagram, facebook, linkedin, twitter, isHome }) => {
-
-    console.log(isHome)
-
-
     return (
 
         <footer className={styles.footerContainer} >
