@@ -1,9 +1,11 @@
 import Head from "next/head";
+import { Button } from "../components/Button";
 import { Content } from "../components/Content";
 import { Footer } from "../components/Footer";
 import { Input } from "../components/Input";
 import { Navbar } from "../components/Navbar";
-import styles from '../styles/pages/Home.module.css';
+import { Textarea } from "../components/Textarea";
+import styles from '../styles/pages/Contact.module.css';
 
 
 export default function Contact() {
@@ -35,13 +37,35 @@ export default function Contact() {
                         <Input name="nome" label="Seu Nome"></Input>
                         <Input name="email" label="Email"></Input>
                         <Input name="empresa" label="Empresa"></Input>
+                        <Textarea name="descricao" label="Descrição" placeholder="Nos conte o que você precisa ;)" ></Textarea>
+                        <div className={styles.contentButton}>
+                            <p><img src="/images/icons/warning.svg" alt="Aviso importante" />
+                                Importante! <br />
+                                Preencha todos os dados
+                                </p>
+                            <button type="button">Enviar</button>
+                        </div>
                     </div>
 
                     <div className={styles.contactAboutCard}>
                         <h2>Ou fale conosco diretamente por:</h2>
-                        <a href="whatsapp://send?abid=012982642452&text=Hello%2C%20World!"><img src="/images/icons/whatsapp.svg" alt="whatsapp logo"/>Whatsapp</a>
-                        <a href=""><img src="/images/icons/messenger.svg" alt="whatsapp logo"/> Messenger</a>
+                        <a href="whatsapp://send?abid=012982642452&text=Hello%2C%20World!"><img src="/images/icons/whatsapp.svg" alt="whatsapp logo" />Whatsapp</a>
+                        <a href=""><img src="/images/icons/messenger.svg" alt="whatsapp logo" /> Messenger</a>
+                        <h2>Estamos esperando o seu contato!</h2>
+
+                        <div className={styles.contactSocialMedia}>
+                            <li><a href="" target="_blank"><img src="/images/coloredIcons/instagram.svg" alt="Instagram" /></a></li>
+                            <li><a href="" target="_blank"><img src="/images/coloredIcons/facebook.svg" alt="Facebook" /></a></li>
+                            <li><a href="" target="_blank"><img src="/images/coloredIcons/twitter.svg" alt="Twitter" /></a></li>
+                            <li><a href="" target="_blank"><img src="/images/coloredIcons/linkedin.svg" alt="Linkedin" /></a></li>
+                        </div>
+
+
+
+
+
                     </div>
+
 
 
                 </div>

@@ -36,7 +36,6 @@
 .navItems a:hover{
     color: rgb(255, 255, 255);
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 2px;
     transition: 1s;
 }
 
@@ -47,7 +46,6 @@
     cursor: pointer;
     position: absolute;
     transition: 2s;
-
 }
 
 
