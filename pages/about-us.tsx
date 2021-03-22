@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Content } from "../components/Content";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
-import styles from '../styles/pages/Home.module.css';
+import styles from '../styles/pages/AboutUs.module.css';
 
 
 export default function AboutUs() {
@@ -27,8 +27,9 @@ export default function AboutUs() {
 
             </Navbar>
 
-
-            <Content title="Sobre nós"></Content>
+            <div className={styles.aboutUsContainer}>
+                <h2>Ainda estamos desenvolvendo essa parte ;)</h2>
+            </div>
 
             <Footer
                 isHome={false}

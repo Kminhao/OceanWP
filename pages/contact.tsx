@@ -39,8 +39,8 @@ export default function Contact() {
                         <Input name="empresa" label="Empresa"></Input>
                         <Textarea name="descricao" label="Descrição" placeholder="Nos conte o que você precisa ;)" ></Textarea>
                         <div className={styles.contentButton}>
-                            <p><img src="/images/icons/warning.svg" alt="Aviso importante" />
-                                Importante! <br />
+                            <p><img src="/images/icons/warning.svg" alt="Aviso importante" /><br/>
+                                Importante! <br/>
                                 Preencha todos os dados
                                 </p>
                             <button type="button">Enviar</button>

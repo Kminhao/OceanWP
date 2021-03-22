@@ -3,6 +3,7 @@ import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
 import styles from '../styles/pages/Home.module.css';
 import { Content } from '../components/Content';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -25,9 +26,22 @@ export default function Home() {
 
       </Navbar>
 
-      <Content title="Home Page"></Content>
+      <div className={styles.homeContainer}>
+        <div className={styles.homeHeader}>
+          <strong>Desenvolver o seu projeto nunca foi tão fácil!</strong>
+          <h2>Prezamos pelo desenvolvimento bla bla bla bla bla bla bla bla bla bla</h2>
+          <h3>Entre em contato conosco e vamos tirar as suas ideias do papel!</h3>
 
-    
+          <Link href="/contact"><button type="button"> Get started</button></Link>
+
+        </div>
+        <div className={styles.homeHeader}>
+          <h2> ihu</h2>
+        </div>
+
+      </div>
+
+
 
       <Footer
         facebook="https://facebook.com"

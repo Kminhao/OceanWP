@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.aboutUsContainer{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/backgroundNear.svg');
+}
+
+
+@media (max-width: 720px){
+    .aboutUsContainer h2{
+        font-size: 1rem;
+    }
+}

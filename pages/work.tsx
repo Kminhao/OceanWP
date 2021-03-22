@@ -24,14 +24,11 @@ export default function Work() {
             >
             </Navbar>
 
+            <div className={styles.workContainer}>
+                <h2>Ainda estamos desenvolvendo essa parte ;)</h2>
 
 
-            <Content title="Trabalhe Conosco">
-                <div className={styles.workContainer}>
-                    <h2>Qualquer coisa</h2>
-
-                </div>
-            </Content>
+            </div>
 
             <Footer
                 isHome={false}

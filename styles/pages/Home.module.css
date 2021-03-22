@@ -8,3 +8,90 @@
 }
 
 
+.homeContainer{
+  width: 100vw;
+  height: 100vh;
+  background: url('/images/company.jpg');
+  background-size: cover;
+  flex: 1;
+}
+
+
+.homeHeader {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 40px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+ 
+}
+
+
+.homeHeader strong{
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+
+.homeHeader h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+
+.homeHeader h3 {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+
+
+
+.homeHeader button {
+  width: 20vw;
+  height: 6vh;
+  background: var(--color-secundary);
+  border: 0;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: background-color 0.4s;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.homeHeader button:hover {
+   background: var(--color-secundary-dark);
+}
+
+
+@media (max-width: 720px){
+  .homeHeader strong{
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  
+  
+  .homeHeader h2 {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  
+  .homeHeader h3 {
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+
+  .homeHeader button {
+    width: 50vw;
+    height: 8vh;
+  }
+}
