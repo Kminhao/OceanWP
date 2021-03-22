@@ -29,7 +29,7 @@ export default function Contact() {
 
             <div className={styles.contactContainer}>
                 <div className={styles.contactHeader}>
-                    <h2>Entre em contato com o nosso time!</h2>
+                    <h2>Entre em contato conosco!</h2>
                 </div>
 
                 <div className={styles.contactContent}>

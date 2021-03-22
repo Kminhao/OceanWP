@@ -8,11 +8,36 @@
   }
 
 
+  .container h2 {
+    font-size: 1.5rem;
+    align-self: center;
+    margin-top: 30px;
+  }
+
+
+
 .profilesContainer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+    padding: 20px;
     flex: 1;
 }
 
+
+@media (max-width: 720px){
+
+
+  .container h2 {
+    font-size: 1.1rem;
+    align-self: center;
+    padding: 10px;
+  }
+
+  .profilesContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

@@ -15,7 +15,6 @@ export const Profile: React.FC<profileProps> = ({ nome, cargo, image, linkedin, 
     return (
         <div className={styles.profileContainer}>
             <div className={styles.profileCard}>
-                {/* <img src={`/images/profiles/${image}.png`} alt="" /> */}
                 <img src={image} alt="" />
                 <h2>{nome}</h2>
                 <strong>{cargo}</strong>

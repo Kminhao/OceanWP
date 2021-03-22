@@ -33,3 +33,11 @@
     right: 1.6rem;
     bottom: 0;
 }
+
+
+
+@media (max-width: 720px){
+    .inputBlock{
+        position: static;
+    }
+}

@@ -121,3 +121,55 @@
   .contentButton button:hover {
      background: var(--color-secundary-dark);
   }
+
+
+
+@media (max-width: 720px) {
+
+
+  .contactHeader h2{
+    font-size: 1.2rem;
+  }
+
+  .contactContent{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+
+  .contactFormCard {
+    width: 90vw;
+  }
+  .contactFormCard button {
+    width: 25vw;
+    height: 3rem;
+  }
+
+  .contactAboutCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+  }
+
+  .contactAboutCard h2{
+    margin-top: 30px;
+    font-size: 1.1rem;
+    justify-self: center;
+  }
+
+  .contentButton p {
+    display: none;
+  }
+
+  .contactSocialMedia {
+    margin-bottom: 20px;
+  }
+ 
+
+}

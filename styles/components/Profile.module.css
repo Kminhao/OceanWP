@@ -14,7 +14,8 @@
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 20px;
-  width: 30vw;
+  width: 25vw;
+  height: 70vh;
   margin-right: 20px;
   background: var(--color-input-background);
   border-radius: 10px;
@@ -23,27 +24,28 @@
 
 
 .profileCard h2 {
-  margin-top: 5px;
+  font-size: 1.2rem;
+  align-self: center;
+  margin-top: 30px;
 }
 
 
-
 .profileCard img {
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
 }
 
 
 .profileCard strong {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 5px;
 }
 
 
 .profileCard p {
   margin-top: 10px;
-  font-size: 1.2rem
+  font-size: 1rem
 }
 
 
@@ -52,12 +54,52 @@
   width: 15vw;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 
 .socialMedia img {
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
+}
+
+
+@media (max-width: 720px){
+
+
+  .profileCard{
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  
+  .profileCard strong {
+    font-size: 0.8rem;
+    margin-top: -10px;
+  }
+  
+
+  .profileCard img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    
+  }
+
+  .socialMedia{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .socialMedia img {
+    width: 30px;
+    height: 30px;
+
+  }
 
 }
