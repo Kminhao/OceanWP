@@ -16,8 +16,10 @@ export const Content: React.FC<contentProps> = ({ title }) => {
                     <img src="/images/ocean-energy.svg" alt="" />
                 </div>
 
-                <div className={styles.homePageContent}>
+              
 
+                <div className={styles.homePageContent}>
+                    
                 </div>
 
 
