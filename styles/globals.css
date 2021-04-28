@@ -1,14 +1,18 @@
 :root {
   /* CORES */
   
-  --background: #dfdfdf;
+  --background:  linear-gradient(rgba(64,224,208,1) 5%, rgba(9,9,121,1) 100%);;
   --navbar-color: rgba(255, 255, 255, 0.3);
   --footer-color: rgb(167, 167, 167, 0.5);
   --navbar-menu-color: rgb(167, 167, 167);
   --title-color: rgb(7, 7, 7);
+  
+  --background-color: #40e0d0;
 
 
-  --color-background: #F0F0F7;
+  /*    */
+
+  
   --color-primary-lighter: #9871F5;
   --color-primary-light: #916BEA;
   --color-primary: #8257E5;

@@ -15,44 +15,52 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet" />
         <title>Ocean | Home</title>
       </Head>
-      <Navbar
 
-        facebook="https://facebook.com"
-        instagram="https://instagram.com"
-        linkedin="https://linkedin.com"
-        twitter="https://twitter.com"
-
-      >
-
-      </Navbar>
 
       <div className={styles.homeContainer}>
+        <Navbar
+
+          facebook="https://facebook.com"
+          instagram="https://instagram.com"
+          linkedin="https://linkedin.com"
+          twitter="https://twitter.com"
+
+        >
+
+        </Navbar>
+
         <div className={styles.homeHeader}>
           <strong>Desenvolver o seu projeto nunca foi tão fácil!</strong>
-          <h2>Prezamos pelo desenvolvimento bla bla bla bla bla bla bla bla bla bla</h2>
           <h3>Entre em contato conosco e vamos tirar as suas ideias do papel!</h3>
 
-          <Link href="/contact"><button type="button"> Get started</button></Link>
+          <Link href="/contact"><button type="button">Fale Conosco</button></Link>
 
         </div>
         <div className={styles.homeHeader}>
-          <h2> ihu</h2>
+          <h2>Apenas extendendo</h2>
         </div>
+        <div className={styles.homeHeader}>
+          <h2>Apenas extendendo</h2>
+        </div>
+
+
+        <Footer
+          facebook="https://facebook.com"
+          instagram="https://instagram.com"
+          linkedin="https://linkedin.com"
+          twitter="https://twitter.com"
+          isHome={true}
+        >
+
+
+        </Footer>
+
 
       </div>
 
 
 
-      <Footer
-        facebook="https://facebook.com"
-        instagram="https://instagram.com"
-        linkedin="https://linkedin.com"
-        twitter="https://twitter.com"
-        isHome={true}
-      >
 
-
-      </Footer>
 
 
     </div>

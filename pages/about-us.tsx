@@ -28,7 +28,8 @@ export default function AboutUs() {
             </Navbar>
 
             <div className={styles.aboutUsContainer}>
-                <h2>Ainda estamos desenvolvendo essa parte ;)</h2>
+                <h2>A Ocean Technology nasceu em 2021 com o objetivo de trazer soluções tecnológicas na área de desenvolvimento de software.</h2>
+                <h1>Com a equipe formada por colaboradores especializados nas linguagens de programação mais utilizadas no mercado,<br/> com foco no desenvolvimento de apps, sistemas e websites em geral, buscamos o reconhecimento nacional e <br/>internacional, em nosso ramo de atuação, pela qualidade de nossos serviços prestados.</h1>
             </div>
 
             <Footer

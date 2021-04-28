@@ -13,8 +13,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('/images/backgroundNear.svg');
+    background: rgb(2,0,36);
+    background: linear-gradient(rgba(64,224,208,1) 40%, rgba(9,9,121,1) 100%,rgba(2,0,36,1)0%);
 }
+
+.aboutUsContainer h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.aboutUsContainer h1 {
+    font-size: 1rem;
+}
+
 
 
 @media (max-width: 720px){
